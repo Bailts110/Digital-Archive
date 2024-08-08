@@ -1,0 +1,56 @@
+< THE SYMBOL TABLE >  noname.exe  --  emu8086 assembler version: 4.08 
+===================================================================================================
+Name                     	Offset    	Size      	Type      	Segment   
+===================================================================================================
+DATA                     	00000     	-5        	SEGMENT   	(ITSELF)  
+NEW_LINE                 	00000     	1         	VAR       	data      
+GAME_DRAW                	00003     	1         	VAR       	data      
+GAME_POINTER             	00019     	1         	VAR       	data      
+WIN_FLAG                 	00022     	1         	VAR       	data      
+PLAYER                   	00023     	1         	VAR       	data      
+GAME_OVER_MESSAGE        	00025     	1         	VAR       	data      
+GAME_START_MESSAGE       	00032     	1         	VAR       	data      
+PLAYER_MESSAGE           	00073     	1         	VAR       	data      
+WIN_MESSAGE              	0007B     	1         	VAR       	data      
+TYPE_MESSAGE             	00081     	1         	VAR       	data      
+STACK                    	0000A     	-5        	SEGMENT   	(ITSELF)  
+EXTRA                    	0001A     	-5        	SEGMENT   	(ITSELF)  
+CODE                     	0001A     	-5        	SEGMENT   	(ITSELF)  
+START                    	00000     	-1        	LABEL     	code      
+MAIN_LOOP                	0000D     	-1        	LABEL     	code      
+CHANGE_PLAYER            	0005E     	-1        	LABEL     	code      
+UPDATE_DRAW              	00066     	-1        	LABEL     	code      
+DRAW_X                   	0007A     	-1        	LABEL     	code      
+DRAW_O                   	0007E     	-1        	LABEL     	code      
+UPDATE                   	00082     	-1        	LABEL     	code      
+CHECK                    	00086     	-1        	LABEL     	code      
+CHECK_LINE               	0008A     	-1        	LABEL     	code      
+CHECK_LINE_LOOP          	0008D     	-1        	LABEL     	code      
+FIRST_LINE               	000A0     	-1        	LABEL     	code      
+SECOND_LINE              	000A5     	-1        	LABEL     	code      
+THIRD_LINE               	000AA     	-1        	LABEL     	code      
+DO_CHECK_LINE            	000AF     	-1        	LABEL     	code      
+CHECK_COLUMN             	000D4     	-1        	LABEL     	code      
+CHECK_COLUMN_LOOP        	000D7     	-1        	LABEL     	code      
+FIRST_COLUMN             	000EA     	-1        	LABEL     	code      
+SECOND_COLUMN            	000EF     	-1        	LABEL     	code      
+THIRD_COLUMN             	000F4     	-1        	LABEL     	code      
+DO_CHECK_COLUMN          	000F9     	-1        	LABEL     	code      
+CHECK_DIAGONAL           	00122     	-1        	LABEL     	code      
+CHECK_DIAGONAL_LOOP      	00125     	-1        	LABEL     	code      
+FIRST_DIAGONAL           	00130     	-1        	LABEL     	code      
+SECOND_DIAGONAL          	00138     	-1        	LABEL     	code      
+DO_CHECK_DIAGONAL        	00140     	-1        	LABEL     	code      
+GAME_OVER                	00167     	-1        	LABEL     	code      
+SET_GAME_POINTER         	0019C     	-1        	LABEL     	code      
+LOOP_1                   	001A5     	-1        	LABEL     	code      
+ADD_1                    	001B1     	-1        	LABEL     	code      
+ADD_2                    	001B6     	-1        	LABEL     	code      
+PRINT                    	001C0     	-1        	LABEL     	code      
+CLEAR_SCREEN             	001C5     	-1        	LABEL     	code      
+READ_KEYBOARD            	001CE     	-1        	LABEL     	code      
+FIM                      	001D3     	-1        	LABEL     	code      
+===================================================================================================
+[ 5/3/2024  --  12:19:26 AM ] 
+< END >
+ 
